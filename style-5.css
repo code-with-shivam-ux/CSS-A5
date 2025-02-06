@@ -1,0 +1,169 @@
+body{
+    background-color: yellow;
+}
+#main{
+     margin-left: 560px; 
+
+
+}
+.list{
+   
+    font-size: x-large;
+   
+}
+a{
+    font-size: xx-large;
+
+}
+  
+.box1{
+     display: flex;
+      gap: 50px;
+     
+}
+ .item1{
+    height: 100px;
+    width: 100px;
+    margin-left: 25px; 
+    margin-bottom: 25px;
+    background: teal;
+    transform: skew(20deg);
+    animation-duration: 5s;
+    animation-name: shiv1;
+    animation-iteration-count: infinite;
+   
+}
+
+@keyframes shiv1 {
+    0%{
+        transform: skewX(25deg);
+    }
+    50%{
+        transform: skewX(-25deg);
+    }
+    100%{
+        transform: skewX(25deg);
+    }
+} 
+
+.box2{
+    display: flex;
+    gap: 30px;
+}
+.item2{
+    height: 100px;
+    width: 100px;
+    margin-left: 25px; 
+    margin-bottom: 25px;
+    background: darkslategray;
+    transform: skew y(35deg);
+    animation-name: shiv2;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes shiv2{
+    0%{
+        transform: skewY(30deg);
+    }
+    50%{
+        transform: skewY(-30deg);
+    }
+    100%{
+        transform: skewY(30deg);
+    }
+}
+
+.box3{
+    display: flex;
+    gap: 30px;
+}
+.item3{
+    height: 100px;
+    width: 100px;
+    margin-left: 25px; 
+    margin-bottom: 25px;
+    background: teal;
+    transform: rotate(90deg);
+    animation-name: shiv3;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes shiv3{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.box4{
+    display: flex;
+    gap: 30px;
+}
+.item4{
+    height: 100px;
+    width: 100px;
+    margin-left: 25px; 
+    margin-bottom: 25px;
+    background: purple;
+    animation-name: shiv4;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes shiv4{
+    0%{
+        transform:scaleY(1.0);
+    }
+    50%{
+        transform: scaleY(0.5);
+    }
+    100%{
+        transform: scaleY(1.0);
+    }
+}
+.item5{
+    height: 100px;
+    width: 100px;
+    margin-left: 25px; 
+    margin-bottom: 25px;
+    background-color:navy;
+    animation-name: shiv5;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes shiv5{
+    0%{
+        transform:scaleX(1.0);
+    }
+    50%{
+        transform: scaleX(0.5);
+    }
+    100%{
+        transform: scaleX(1.0);
+    }
+}
+
+.item6{
+    height: 100px;
+    width: 100px;
+    margin-left: 25px; 
+    margin-bottom: 25px;
+    background: green;
+    animation-name: shiv6;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes shiv6{
+    0%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(90deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+
